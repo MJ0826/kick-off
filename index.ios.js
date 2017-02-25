@@ -2,8 +2,8 @@
 import React, { Component, PropTypes } from 'react';
 import { AppRegistry } from 'react-native';
 import { Provider } from 'react-redux';
-import Router from './Router';
-import configureStore from '../store/configureStore';
+import Router from './src/routing/router';
+import configureStore from './src/store';
 
 const store = configureStore();
 
